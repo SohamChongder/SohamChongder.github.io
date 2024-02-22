@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Essentials Site</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    </head>
+
+    <body>
+        
+        <div class="timeanddate">
+            <p id="loc">Darmstadt</p>
+            <p id="time"></p>
+            <p id="date"></p>
+        </div>
+
+        <div class="weather">
+            <p id="temp">11</p>
+            <p id="wind">23</p>
+            <p id="type">Sunny</p>
+        </div>
+
+        <div class="stopwatch">
+            <p id="studytime">00:00</p><p id="studysec">00s</p>
+            <button id="start" onclick="startStopwatch()">START</button>
+            <button id="pause" onclick="stopStopwatch()">PAUSE</button>
+            <button id="stop" onclick="resetStopwatch()">STOP</button>
+        </div>
+
+        <script src="script.js"></script>
+
+
+    </body>
+</html>

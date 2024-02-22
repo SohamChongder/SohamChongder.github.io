@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+}
+
+div{
+    
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-color: brown;
+    border-width: 1vh;
+    background-color: rgba(121, 121, 123, 0.441);
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    transition: 0.2s
+}
+
+div:hover{
+    color: rgb(15, 15, 15);
+    background-color: rgba(255, 255, 255, 0.728);
+
+}
+
+.timeanddate{
+    width: 50vw;
+    height: 40vh;
+    position:absolute;
+    margin-top: 30vh;
+    margin-left:5vw;
+    margin-right:45vw;
+    text-align: center;
+}
+
+#loc{
+    font-size: 3vh;
+    margin-bottom: 0vh;
+}
+
+#time{
+    font-size: 11vw;
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+
+
+#date{
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+.weather{
+    width: 30vw;
+    height: 30vh;
+    position:absolute;
+    margin-left:60vw;
+    margin-right:10vw;
+    margin-top: 0vh;
+    text-align: center;
+}
+
+#temp{
+    font-size: 10vh;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+#wind{
+    font-size: 2.5vh;
+}
+
+#type{
+    font-size: 4vh;
+}
+
+.stopwatch{
+    width: 30vw;
+    height: 40vh;
+    position:absolute;
+    margin-left:60vw;
+    margin-right:10vw;
+    margin-top: 40vh;
+    text-align: center;
+}
+
+#studytime{
+    font-size: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+}
+#studysec{
+    font-size: 2vw;
+    margin-top: 0vh;
+    margin-bottom: 1vh;
+}
+
+.stopwatch button{
+    /* border-radius: 2vh; */
+    border-style: solid;
+    height: 5vh;
+    width: 7vw;
+    margin-left:1vw;
+    margin-right:1vw;
+    position: relative;
+    vertical-align: bottom;
+    transition:0.3s
+}
+
+#start{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    color: white;
+    font-size: 1.2vw;
+}
+#start:hover{
+    color:black;
+    background-color: rgba(172, 255, 47, 0.475);
+    border-color: rgba(172, 255, 47, 0.475);
+}
+
+#pause{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    color: white;
+    font-size: 1.2vw;
+}
+#pause:hover{
+    background-color: rgba(251, 255, 0, 0.459);
+    color:black;
+    border-color:rgba(251, 255, 0, 0.459);
+}
+
+#stop{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    color: white;
+    font-size: 1.2vw;
+}
+
+#stop:hover{
+    background-color: rgba(255, 47, 47, 0.457);
+    border-color: rgba(255, 47, 47, 0.457);
+    color: black;
+}
+/* .spotify{
+    border-radius:12px;
+    margin-top: 2vh; 
+    margin-left: 5vw;
+    width:30vw; 
+    height: 40vh;
+} */
